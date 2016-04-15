@@ -1,0 +1,15 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Welcome to Ionic Login </h2>
+		<button class="button button-block icon-left ion-social-facebook facebook-blue" ng-click="facebookLogin()">Facebook</button>
+		<button class="button button-block icon-left ion-social-googleplus googleplus-red" ng-click="googleLogin()">Google+</button>
+		<button class="button button-block icon-left ion-social-twitter twitter-skyblue" ng-click="twitterLogin()">Twitter</button>
+
+<label class="item item-input item-stacked-label">
+	<span class="input-label">Results:</span>
+
+	<textarea placeholder="yyy" rows="10" cols="10">{{data.result}}
+	</textarea>
+</label>		
+  </ion-content>
+</ion-view>
