@@ -1,7 +1,7 @@
-# Ionic-cordovaOauth blank
+# Ionic-cordovaOauth 
 Steps to run:
 <ol>
-<li>ionic Start Ionic-cordovaOauth</li>
+<li>ionic Start Ionic-cordovaOauth blank</li>
 <li>Replace www with this repository www folder.</li>
 <li>bower install ngCordova</li>
 <li>bower install ng-cordova-oauth </li>
